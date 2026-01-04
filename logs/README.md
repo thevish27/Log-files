@@ -98,7 +98,7 @@ CREATE DATABASE logdb;
 Start the server:
 
 ```bash
-uvicorn app:app --reload
+uvicorn main:app --reload
 ```
 
 API will be available at:
