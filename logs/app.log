@@ -1,0 +1,38 @@
+2025-05-07 12:00:00	INFO	UserAuth	User login successful: user01
+2025-05-07 12:00:01	DEBUG	UserAuth	Session created for user01
+2025-05-07 12:00:02	INFO	Profile	Profile loaded for user01
+2025-05-07 12:00:03	WARNING	Security	Password expires soon for user01
+2025-05-07 12:00:04	INFO	Payment	Payment initiated order2001
+2025-05-07 12:00:05	ERROR	Payment	Payment failed order2001
+2025-05-07 12:00:06	DEBUG	Payment	Retry payment order2001
+2025-05-07 12:00:07	INFO	Payment	Payment success order2001
+2025-05-07 12:00:08	INFO	Order	Order confirmed order2001
+2025-05-07 12:00:09	DEBUG	Order	Order cached order2001
+
+2025-05-07 12:01:00	INFO	UserAuth	User login successful: user02
+2025-05-07 12:01:01	DEBUG	UserAuth	Session created for user02
+2025-05-07 12:01:02	INFO	Profile	Profile loaded for user02
+2025-05-07 12:01:03	WARNING	Security	Suspicious login detected user02
+2025-05-07 12:01:04	INFO	Payment	Payment initiated order2002
+2025-05-07 12:01:05	ERROR	Payment	Payment gateway timeout order2002
+2025-05-07 12:01:06	DEBUG	Payment	Retry payment order2002
+2025-05-07 12:01:07	INFO	Payment	Payment success order2002
+2025-05-07 12:01:08	INFO	Order	Order confirmed order2002
+2025-05-07 12:01:09	DEBUG	Order	Order cached order2002
+
+2025-05-07 12:02:00	INFO	UserAuth	User login successful: user03
+2025-05-07 12:02:01	DEBUG	UserAuth	Session created for user03
+2025-05-07 12:02:02	INFO	Profile	Profile loaded for user03
+2025-05-07 12:02:03	WARNING	Security	Multiple login attempts user03
+2025-05-07 12:02:04	INFO	Payment	Payment initiated order2003
+2025-05-07 12:02:05	ERROR	Payment	Insufficient balance order2003
+2025-05-07 12:02:06	DEBUG	Payment	Retry payment order2003
+2025-05-07 12:02:07	INFO	Payment	Payment success order2003
+2025-05-07 12:02:08	INFO	Order	Order confirmed order2003
+2025-05-07 12:02:09	DEBUG	Order	Order cached order2003
+
+2025-05-07 12:03:00	INFO	UserAuth	User logout user01
+2025-05-07 12:03:01	INFO	UserAuth	User logout user02
+2025-05-07 12:03:02	INFO	UserAuth	User logout user03
+2025-05-07 12:03:03	DEBUG	System	Session cleanup started
+2025-05-07 12:03:04	DEBUG	System	Session cleanup completed
